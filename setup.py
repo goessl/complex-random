@@ -16,7 +16,7 @@ setup(
     license = 'MIT',
     
     url = 'https://github.com/goessl/random-complex',
-    py_modules = ['random-complex'],
+    py_modules = ['random_complex'],
     python_requires = '>=3.7',
     install_requires = ['numpy'],
     

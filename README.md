@@ -3,7 +3,7 @@
 A package for the most basic complex random sampling.
 
 ```python
-from random-complex import crandomn
+from random_complex import crandomn
 import matplotlib.pyplot as plt
 
 x = crandomn(size=1000000)
@@ -35,7 +35,7 @@ This package provides three functions, that mimic their corresponding `numpy.ran
 Random uniform sampling from the complex unit circle:
 
 ```python
-from random-complex import crandomu
+from random_complex import crandomu
 
 x = crandomu(size=1000000)
 
@@ -57,7 +57,7 @@ plt.show()
 Random uniform sampling from within complex unit circle:
 
 ```python
-from random-complex import crandom
+from random_complex import crandom
 
 x = crandom(size=1000000)
 
@@ -79,7 +79,7 @@ plt.show()
 Normal distributed sampling on the complex plane. See first image, or here with unequal variance.
 
 ```python
-from random-complex import crandomn
+from random_complex import crandomn
 
 x = crandomn(scale=((1, 0.5), (0.5, 0.5)), size=1000000)
 
