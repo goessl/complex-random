@@ -5,7 +5,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / 'README.md').read_text()
 
 setup(
-    name = 'random-complex',
+    name = 'complex-random',
     version = '0.9.0',
     description = 'A package for only the most basic complex random sampling.',
     long_description = long_description,
@@ -15,8 +15,8 @@ setup(
     author_email = 'goessl@student.tugraz.at',
     license = 'MIT',
     
-    url = 'https://github.com/goessl/random-complex',
-    py_modules = ['random_complex'],
+    url = 'https://github.com/goessl/complex-random',
+    py_modules = ['crandom'],
     python_requires = '>=3.7',
     install_requires = ['numpy'],
     

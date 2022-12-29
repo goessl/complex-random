@@ -1,9 +1,9 @@
-# random-complex
+# complex-random
 
 A package for the most basic complex random sampling.
 
 ```python
-from random_complex import crandomn
+from crandom import crandomn
 import matplotlib.pyplot as plt
 
 x = crandomn(size=1000000)
@@ -17,12 +17,12 @@ plt.ylabel('Im(x)')
 plt.show()
 ```
 
-![png](https://raw.githubusercontent.com/goessl/random-complex/main/readme/crandomn.png)
+![png](https://raw.githubusercontent.com/goessl/complex-random/main/readme/crandomn.png)
 
 
 ## Installation
 
-```pip install random-complex```
+```pip install complex-random```
 
 ## Usage
 
@@ -35,7 +35,7 @@ This package provides three functions, that mimic their corresponding `numpy.ran
 Random uniform sampling from the complex unit circle:
 
 ```python
-from random_complex import crandomu
+from crandom import crandomu
 
 x = crandomu(size=1000000)
 
@@ -48,7 +48,7 @@ plt.ylabel('Im(x)')
 plt.show()
 ```
 
-![png](https://raw.githubusercontent.com/goessl/random-complex/main/readme/crandomu.png)
+![png](https://raw.githubusercontent.com/goessl/complex-random/main/readme/crandomu.png)
 
 ### crandom
 
@@ -57,7 +57,7 @@ plt.show()
 Random uniform sampling from within complex unit circle:
 
 ```python
-from random_complex import crandom
+from crandom import crandom
 
 x = crandom(size=1000000)
 
@@ -70,7 +70,7 @@ plt.ylabel('Im(x)')
 plt.show()
 ```
 
-![png](https://raw.githubusercontent.com/goessl/random-complex/main/readme/crandom.png)
+![png](https://raw.githubusercontent.com/goessl/complex-random/main/readme/crandom.png)
 
 ### crandomn
 
@@ -79,7 +79,7 @@ plt.show()
 Normal distributed sampling on the complex plane. See first image, or here with unequal variance.
 
 ```python
-from random_complex import crandomn
+from crandom import crandomn
 
 x = crandomn(scale=((1, 0.5), (0.5, 0.5)), size=1000000)
 
@@ -92,4 +92,4 @@ plt.ylabel('Im(x)')
 plt.show()
 ```
 
-![png](https://raw.githubusercontent.com/goessl/random-complex/main/readme/crandomn2.png)
+![png](https://raw.githubusercontent.com/goessl/complex-random/main/readme/crandomn2.png)
